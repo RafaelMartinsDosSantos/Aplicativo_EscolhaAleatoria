@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -124,15 +125,27 @@ fun Greeting() {
     }
 
     Row(modifier = Modifier.offset(
-        x = 50.dp, y = 200.dp
-    )
+        x = 70.dp, y = 380.dp
+    ),
+        horizontalArrangement = Arrangement.spacedBy(13.dp)
     ) {
-        emojistelainicial.forEach {
+        emojistelainicial.forEach { emojistelainicial ->
             Box(
                 modifier = Modifier
-                    .size(100.dp),
+                    .size(80.dp)
+                    .background(
+                        color = Color(0xFF1A1D24),
+                        shape = RoundedCornerShape(20.dp)
 
-            )
+                    ),
+                contentAlignment = Alignment.Center
+
+            ) {
+                Text(
+                    text = emojistelainicial,
+                    fontSize = 30.sp
+                )
+            }
         }
     }
 

@@ -1,6 +1,6 @@
-﻿# 🍽️ O que Comer Hoje?
+﻿# 🏋️ O que Treinar hoje?
 
-Um aplicativo moderno e interativo desenvolvido em **Android** utilizando **Jetpack Compose**, criado para resolver a clássica dúvida de última hora: *"O que vamos comer?"*. 
+Um aplicativo moderno e interativo desenvolvido em **Android** utilizando **Jetpack Compose**, criado para resolver a clássica dúvida de última hora: *"O que vamos Treinar?"*. 
 
 O app realiza um sorteio aleatório entre várias opções de alimentos e oferece um feedback visual dinâmico e divertido para o usuário.
 
@@ -8,9 +8,9 @@ O app realiza um sorteio aleatório entre várias opções de alimentos e oferec
 
 ## ✨ Funcionalidades
 
-* **Sorteio Instantâneo:** Aperte o botão de girar e deixe o app escolher uma refeição para você de forma totalmente aleatória.
+* **Sorteio Instantâneo:** Aperte o botão de girar e deixe o app escolher um treino para você de forma totalmente aleatória.
 * **Feedback Visual Inteligente:** O item escolhido no sorteio se destaca automaticamente mudando de cor (destaque verde nas listas de opções).
-* **Card Central Dinâmico:** Exibe um emoji em tamanho grande acompanhado de uma frase ou dica personalizada para cada tipo de prato escolhido.
+* **Card Central Dinâmico:** Exibe um emoji em tamanho grande acompanhado de uma frase ou dica personalizada para cada tipo de treino escolhido.
 * **Interface Moderna:** Desenvolvida inteiramente com componentes nativos do Jetpack Compose, utilizando gradientes, cantos arredondados e paleta de cores estilizada no tema escuro.
 
 ---

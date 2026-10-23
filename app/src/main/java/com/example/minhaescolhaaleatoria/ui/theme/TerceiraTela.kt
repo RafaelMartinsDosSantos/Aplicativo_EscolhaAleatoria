@@ -111,23 +111,7 @@ fun TerceiraTela(
                         )
                         .padding(16.dp)
                 ) {
-                    Box(
-                        modifier = Modifier
-                            .align(Alignment.TopEnd)
-                            .border(
-                                width = 1.dp,
-                                color = Color(0xFF3A3D44),
-                                shape = RoundedCornerShape(12.dp)
-                            )
-                            .padding(horizontal = 10.dp, vertical = 4.dp)
-                    ) {
-                        Text(
-                            text = "trocar por foto",
-                            color = Color(0xFF8B93A1),
-                            fontSize = 11.sp,
-                            fontFamily = interregular
-                        )
-                    }
+
 
                     Column(
                         modifier = Modifier.align(Alignment.Center),

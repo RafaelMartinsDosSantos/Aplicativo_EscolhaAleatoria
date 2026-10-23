@@ -14,3 +14,6 @@ val corbackground1 = Color(0xFF1D2B0A)
 
 val corbackground2 = Color(0xFF0F1115)
 
+val corbackgroundtela21 = Color(0xFF1A1D24)
+
+val corbackgroundtela22 = Color(0xFF3A2F12)
